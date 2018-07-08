@@ -14,6 +14,7 @@ GEM
     fastimage (1.8.1)
       addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.14)
+    ffi (1.9.14-x64-mingw32)
     font-awesome-sass (4.5.0)
       sass (>= 3.2)
     forwardable-extended (2.6.0)
@@ -68,6 +69,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bootstrap-sass
@@ -80,4 +82,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.13.1
+   1.16.2
