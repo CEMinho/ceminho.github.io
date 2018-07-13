@@ -1,7 +1,7 @@
 var container = document.getElementById('countdown');
 
 function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
+  var t = Date.parse(endtime) - Date.parse(new Date("October 13 2018 08:30:00 GMT+0000"));
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
