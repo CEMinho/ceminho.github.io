@@ -1,9 +1,8 @@
-- name: Subvisual
-  pic: subvisual.png
-  link: https://subvisual.co/
-- name: Msd
-  pic: msd.png
-  link: http://msd.pt/
-- name: Grow
-  pic: grow.png
-  link: http://grow.josedemello.pt/
+- name: Aptiv
+  pic: aptiv.png
+  link: https://www.aptiv.com/
+  size: 6
+- name: Fujitsu
+  pic: fujitsu.png
+  link: http://www.fujitsu.com/pt/
+  size: 4

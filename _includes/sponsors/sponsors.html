@@ -1,24 +1,40 @@
 <section id="sponsors">
     <div class="container ">
 
-        <div class="section-title-container">
-          <h1 class="section-title">patrocinadores</h1>
-        </div>
+      <div class="cem-partners">
+        <h4 class="col-md-3 center-no-float partners-header">
+          <span>Parceiros Silver</span>
+        </h4>
+      </div>
 
-        <div class="row">
-          {% for sponsor in site.data.sponsors %}
-          {% if sponsor.pic %}
-          {% if sponsor.name == 'Msd' %}
-          <div class="col-md-6 wide-logo vcenter">
-              <a target="_blank" href="{{ sponsor.link }}"> {% image 'sponsors/{{sponsor.pic}}' class:'partner-img img-responsive' %} </a>
-          </div>
-          {% else %}
-          <div class="col-md-3 wide-logo vcenter">
-              <a target="_blank" href="{{ sponsor.link }}"> {% image 'sponsors/{{sponsor.pic}}' class:'partner-img img-responsive' %} </a>
-          </div>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
+      <div class="row">
+        {% for partner in site.data.sponsors %}
+        {% if partner.pic %}
+        {% if partner.size == 6 %}
+        <div class="col-md-4 wide-logo vcenter">
+            <a target="_blank" href="{{ partner.link }}"> {% image 'sponsors/{{partner.pic}}' class:'hcenter img-responsive' %} </a>
         </div>
-    </div>
-</section>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="cem-partners">
+        <h4 class="col-md-3 center-no-float partners-header">
+          <span>Parceiros Bronze</span>
+        </h4>
+      </div>
+
+      <div class="row">
+        {% for partner in site.data.sponsors %}
+        {% if partner.pic %}
+        {% if partner.size == 4 %}
+        <div class="col-md-6 wide-logo large vcenter">
+            <a target="_blank" href="{{ partner.link }}"> {% image 'sponsors/{{partner.pic}}' class:'partner-img hcenter img-responsive' %} </a>
+        </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+  </section>
