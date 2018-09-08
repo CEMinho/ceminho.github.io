@@ -8,9 +8,9 @@
 </section>
 <section id="mentorsbody">
   <div class="container business">
-    <h2>Business Development</h2>
+    <h2>Empreendedorismo</h2>
     {% for mentor in site.data.mentors %}
-    {% if mentor.area == "business" %}
+    {% if mentor.area == "empreendedorismo" %}
     <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
       <div class="mentor-img vcenter img-responsive" style="background-image: url({% asset_path 'mentors/{{mentor.pic}}'%})">
       </div>
@@ -29,9 +29,9 @@
   </div>
 
   <div class="container tech">
-    <h2>Tech Development</h2>
+    <h2>Alunos</h2>
     {% for mentor in site.data.mentors %}
-    {% if mentor.area == "tech" %}
+    {% if mentor.area == "alunos" %}
     <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
       <div class="mentor-img vcenter img-responsive" style="background-image: url({% asset_path 'mentors/{{mentor.pic}}'%})">
       </div>
@@ -50,7 +50,7 @@
   </div>
 
   <div class="container health">
-    <h2>Health Development</h2>
+    <h2>Gestão</h2>
     {% for mentor in site.data.mentors %}
     {% if mentor.area == "health" %}
     <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
