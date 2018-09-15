@@ -1,3 +1,7 @@
+- name: escolaengenharia
+  pic: engenharia.png
+  link: https://www.eng.uminho.pt/pt
+  size: 4
 - name: sasum
   pic: sasum.png
   link: https://www.sas.uminho.pt/
@@ -6,3 +10,16 @@
   pic: aaum.png
   link: http://www.aaum.pt/
   size: 4
+
+- name: xpim
+  pic: xpim.png
+  link: http://www.xpim3d.com/
+  size: 6
+- name: botnroll
+  pic: botnroll.png
+  link: https://www.botnroll.com/
+  size: 6
+- name: delta
+  pic: delta.png
+  link: http://www.deltacafes.pt/
+  size: 6
