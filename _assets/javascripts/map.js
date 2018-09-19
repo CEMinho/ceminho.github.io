@@ -12,7 +12,7 @@ var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
 var marker = new google.maps.Marker({
 position: myLatlng,
 map: map,
-title: 'CEMinho'
+title: 'CEM 2018'
 });
 map.setTilt(45);
 }
