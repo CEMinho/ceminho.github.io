@@ -1,6 +1,14 @@
-- name: Professor Paisana (TODO)
-  pic: profpaisana.jpg
-  job: SASUM
-  note: SASUM
-  comment:
-  color: white
+- name: Design Thinking
+  company: Startup Braga
+  description: Já pensaste numa ideia ou num produto espetacular mas não sabes a melhor forma de o apresentar? Desfruta deste workshop para aprenderes dicas de como apresentar o teu produto com um bom design.
+  orador: Alexandre Mendes
+
+- name: Como criar o meu negócio
+  company: Startup Braga
+  description: Quantos de nós já pensamos em criar o próprio negócio? Se és empreendedor a sabedoria e a curiosidade são duas das muitas qualidades que deves possuir por isso não te acanhes e aparece neste workshop.
+  orador: Alexandre Mendes
+
+- name: Prepara o teu Pitch
+  company: Braga Toastmasters
+  description: Este workshop é de caráter obrigatório e serve para pôres à prova as tuas capacidades de como fazer um bom pitch. Lembra-te que tens um tempo limite para apresentares o teu pitch na apresentação final, assim sendo esta é a oportunidade que te damos para limares as arestas e ouvires a opinião de pessoas entendidas na matéria.
+  orador: José Cunha, Filipe Romano, Célia Cruz, Jorge Oliveira, Raul Gomes, Nelson Oliveira

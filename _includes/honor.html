@@ -1,8 +1,7 @@
 <section id="honorshead">
-  <div class="container">
-      <div class="schedule-title">
-        <h1>Agenda</h1>
-      </div>
+    <div class="section-title-container">
+        <h1 class="section-title schedule-title">Mentores</h1>
+    </div>
     <br />
     <br />
       <table id="schedule">
@@ -58,8 +57,23 @@
   </div>
 </section>
 
-    <section id="honorsbody" class="{{member.color}}">
-    <div class="workshop-title">
-      <h1>Workshops</h1>
+
+<section id="honorsbody" class="{{member.color}}">
+    <div class="section-title-container">
+        <h1 class="section-title workshop-title">Workshops</h1>
+    </div>
+    {% for member in site.data.honor %}
+
+    <div class="container">
+      <div class="member-info">
+        <h3 class="member-name">{{ member.name }} by {{member.company}}</h3>
+          {% if member.description %}
+            <h4><span class="honor-job"> {{ member.description }}</span></h4>
+          {% endif %}
+          </br>
+          {% if member.orador %}
+            <div class="honor-bio"> Orador(es): {{ member.orador }}</div>
+          {% endif %}
       </div>
-    </section>
+      {% endfor %}
+</section>
