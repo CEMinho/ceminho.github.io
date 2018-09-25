@@ -27,11 +27,10 @@
     {% endif %}
     {% endfor %}
   </div>
-
-  <div class="container tech">
-    <h2>Alunos</h2>
+  <div class="container development">
+    <h2>Desenvolvimento do Produto</h2>
     {% for mentor in site.data.mentors %}
-    {% if mentor.area == "alunos" %}
+    {% if mentor.area == "desenvolvimento" %}
     <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
       <div class="mentor-img vcenter img-responsive" style="background-image: url({% asset_path 'mentors/{{mentor.pic}}'%})">
       </div>
@@ -48,11 +47,10 @@
     {% endif %}
     {% endfor %}
   </div>
-
-  <div class="container health">
-    <h2>Gestão</h2>
+  <div class="container media">
+    <h2>Media</h2>
     {% for mentor in site.data.mentors %}
-    {% if mentor.area == "health" %}
+    {% if mentor.area == "media" %}
     <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
       <div class="mentor-img vcenter img-responsive" style="background-image: url({% asset_path 'mentors/{{mentor.pic}}'%})">
       </div>

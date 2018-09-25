@@ -13,3 +13,35 @@
   area: empreendedorismo
   size: 6
   id: clarasilva
+
+- name: Fernando Cunha
+  pic: fernandocunha.jpg
+  job: Project Coordinator @ Fibrenamics
+  bio: Em construção
+  area: desenvolvimento
+  size: 6
+  id: fernandocunha
+
+- name: Francisco Ramires
+  pic: franciscoramires.jpg
+  job: Co-founder @ Strain
+  bio: Em construção
+  area: desenvolvimento
+  size: 6
+  id: fransciscoramires
+
+- name: Tiago Gomes Sequeira
+  pic: tiagogomessequeira.jpg
+  job: CEO & Founder @ Factory Braga
+  bio: Empreendedor com o objetivo de impulsionar o ecossistema Português com Vitamina - Agência de Marketing Digital, Factory Braga - Espaço de Trabalho e Academia para a Economia Digital, Startup Braga - Incubadora e Aceleradora e Centro Criativo no coração de Braga. É também o fundador do Semibreve Music Festival! Tem como grandes interesses áreas como o empreendedorismo, tecnologia, música, viagens, iPhoneography, modelos de negócios, inovação centrada no cliente e, em geral, fazer as coisas acontecerem!
+  area: desenvolvimento
+  size: 6
+  id: tiagosequeira
+
+- name: Diogo Cunha
+  pic: diogocunha.jpg
+  job: Media Artist @ EEUM
+  bio: Em construção
+  area: media
+  size: 6
+  id: diogocunha
