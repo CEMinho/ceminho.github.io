@@ -1,9 +1,9 @@
 <section id="honorshead">
     <div class="section-title-container">
-        <h1 class="section-title schedule-title">Mentores</h1>
+        <h1 class="section-title schedule-title">Agenda</h1>
     </div>
-    <br />
-    <br />
+    <br/>
+    <br/>
       <table id="schedule">
         <tr> <th colspan="3"> Sábado, 13/10/2018 </th> </tr>
         <tr>
@@ -54,7 +54,6 @@
           <td colspan="2" class="activity"> Entrega de Prémios e Encerramento </td>
         </tr>
       </table>
-  </div>
 </section>
 
 
@@ -62,18 +61,17 @@
     <div class="section-title-container">
         <h1 class="section-title workshop-title">Workshops</h1>
     </div>
-    {% for member in site.data.honor %}
+    {% for workshop in site.data.workshops %}
 
     <div class="container">
       <div class="member-info">
-        <h3 class="member-name">{{ member.name }} by {{member.company}}</h3>
-          {% if member.description %}
-            <h4><span class="honor-job"> {{ member.description }}</span></h4>
-          {% endif %}
-          </br>
-          {% if member.orador %}
-            <div class="honor-bio"> Orador(es): {{ member.orador }}</div>
+        <h3 class="member-name">{{workshop.name}} </h3>
+        <h4 class="company-name">{{workshop.orador}}</h4>
+        <h5 class="realcompany-name">{{workshop.company}}</h5>
+          {% if workshop.description %}
+            <h4><span class="honor-job"> {{ workshop.description }}</span></h4>
           {% endif %}
       </div>
       {% endfor %}
+    </div>
 </section>
