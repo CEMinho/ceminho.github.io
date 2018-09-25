@@ -1,32 +1,77 @@
 <section id="honorshead">
-  <div class="container" style="margin-top: 50px">
-   
     <div class="section-title-container">
-      <h1 class="section-title honor-title"> Comissão de Honra</h1>
-    </div >
-  </div>
+        <h1 class="section-title schedule-title">Agenda</h1>
+    </div>
+    <br/>
+    <br/>
+      <table id="schedule">
+        <tr> <th colspan="3"> Sábado, 13/10/2018 </th> </tr>
+        <tr>
+          <td class="hour"> 8h30 </td>
+          <td colspan="2" class="activity"> Check-In </td>
+        </tr>
+        <tr>
+          <td class="hour"> 9h00 </td>
+          <td colspan="2" class="activity"> Sessão de Abertura </td>
+        </tr>
+        <tr>
+          <td class="hour"> 10h00 </td>
+          <td class="activity"> Início da Competição </td>
+          <td rowspan="5" class="project"> Desenvolvimento de Projetos </td>
+        </tr>
+        <tr>
+          <td class="hour"> 12h30 </td>
+          <td class="activity"> Almoço </td>
+        </tr>
+        <tr>
+          <td class="hour"> 14h00 </td>
+          <td class="activity"> Workshop "Design Thinking" </td>
+        </tr>
+        <tr>
+          <td class="hour"> 16h00 </td>
+          <td class="activity"> Workshop "Como criar o meu negócio?" </td>
+        </tr>
+        <tr>
+          <td class="hour"> 20h00 </td>
+          <td class="activity"> Jantar </td>
+        </tr>
+        <tr> <th colspan="3"> Domingo, 14/10/2018 </th> </tr>
+        <tr>
+          <td class="hour"> 07h30 </td>
+          <td class="activity"> Workshop "Prepara o teu Pitch" </td>
+          <td rowspan ="2" class="project"> Desenvolvimento de Projetos </td>
+        </tr>
+        <tr>
+          <td class="hour"> 09h30 </td>
+          <td class="activity"> Entrega das Apresentações </td>
+        </tr>
+        <tr>
+          <td class="hour"> 10h00 </td>
+          <td colspan="2" class="activity"> Apresentação dos Pitches </td>
+        </tr>
+        <tr>
+          <td class="hour"> 12h30 </td>
+          <td colspan="2" class="activity"> Entrega de Prémios e Encerramento </td>
+        </tr>
+      </table>
 </section>
-    {% for member in site.data.honor %}
-    {% if member.pic %}
-    <section id="honorsbody" class="{{member.color}}">
+
+
+<section id="honorsbody" class="{{member.color}}">
+    <div class="section-title-container">
+        <h1 class="section-title workshop-title">Workshops</h1>
+    </div>
+    {% for workshop in site.data.workshops %}
+
     <div class="container">
-      <div class="col-md-4 member-img" style="background-image: url({% asset_path 'honors/{{member.pic}}'%})">
-      </div> 
-      <div class="col-md-8 member-info">
-        <h3 class="member-name">{{ member.name }}</h3>
-          {% if member.job %}
-            <h4><span class="honor-job"> {{ member.job }}</span></h4>
+      <div class="member-info">
+        <h3 class="member-name">{{workshop.name}} </h3>
+        <h4 class="company-name">{{workshop.orador}}</h4>
+        <h5 class="realcompany-name">{{workshop.company}}</h5>
+          {% if workshop.description %}
+            <h4><span class="honor-job"> {{ workshop.description }}</span></h4>
           {% endif %}
-          </br>
-          {% if member.note %}
-            <div class="honor-bio"> {{ member.note }}</div>
-          {% endif %}
-          </br>
-          {% if member.comment %}
-            <div class="honor-comment"><i> {{ member.comment }}</i></div>
-          {% endif %}
-        </div>
       </div>
-    </section>
-    {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
+</section>
