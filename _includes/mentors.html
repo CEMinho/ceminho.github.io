@@ -47,6 +47,26 @@
     {% endif %}
     {% endfor %}
   </div>
+  <div class="container development">
+    <h2>Alunos</h2>
+    {% for mentor in site.data.mentors %}
+    {% if mentor.area == "alunos" %}
+    <div class="vcenter col-md-{{mentor.size}} icons-space mentor">
+      <div class="mentor-img vcenter img-responsive" style="background-image: url({% asset_path 'mentors/{{mentor.pic}}'%})">
+      </div>
+      <h4>{{mentor.name}}</h4>
+      <h5>{{mentor.job}}</h5>
+      <button class="btn btn-primary text-toggle" data-toggle="collapse" data-target="#{{mentor.id}}" aria-expanded="false">
+        <span class="text-collapsed">See More</span>
+        <span class="text-expanded">See Less</span>
+      </button>
+      <div id="{{mentor.id}}" class="collapse" aria-expanded="false">
+        <h6>"{{mentor.bio}}"</h6>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
   <div class="container media">
     <h2>Media</h2>
     {% for mentor in site.data.mentors %}

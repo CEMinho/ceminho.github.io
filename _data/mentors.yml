@@ -8,8 +8,8 @@
 
 - name: Clara Silva
   pic: clarasilva.jpg
-  job: Gabinete de Empreendedorismo @ TecMinho
-  bio: Em construção
+  job: Coordenadora da Unidade de Empreendedorismo @ TecMinho
+  bio: Clara Silva é licenciada em Relações internacionais Económicas e Politicas pela Universidade do Minho e finalista da licenciatura em Gestão. Desde 2005, desempenha funções na área de Empreendedorismo da TecMinho, sendo as suas principais atividades ligadas ao fomento da cultura empreendedora na Universidade do Minho e ao apoio no lançamento de novos projetos empresariais de base tecnológica e de conhecimento intensivo gerados no meio académico. Na vertente do apoio à constituição de novas empresas é a coordenadora do Programa de Spin-offs da Universidade do Minho cujo objetivo consiste em atribuir o referido estatuto às candidaturas apresentadas, tendo sido formalmente atribuído a mais de 40 projetos empresariais. É responsável pelo Gabinete de apoio ao Empreendedorismo da TecMinho tendo promovido desde então cerca de 500 reuniões com empreendedores cuja finalidade consistiu na aferição de potenciais ideias de negócio inovadoras/base tecnológica.
   area: empreendedorismo
   size: 6
   id: clarasilva
@@ -26,7 +26,7 @@
   pic: franciscoramires.jpg
   job: Co-founder @ Strain
   bio: Em construção
-  area: desenvolvimento
+  area: alunos
   size: 6
   id: fransciscoramires
 
@@ -45,3 +45,11 @@
   area: media
   size: 6
   id: diogocunha
+
+- name: Martinho Aragão
+  pic: martinhoaragao.png
+  job: Presidente @ CESIUM | Vice-Presidente do Departamento de Saídas Profissionais @ AAUM
+  bio: Em construção
+  area: alunos
+  size: 6
+  id: martinhoaragao
