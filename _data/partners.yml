@@ -10,7 +10,10 @@
   pic: aaum.png
   link: http://www.aaum.pt/
   size: 4
-
+- name: cmguimaraes
+  pic: cmguimaraes.png
+  link: https://www.cm-guimaraes.pt
+  size: 6
 - name: xpim
   pic: xpim.png
   link: http://www.xpim3d.com/
@@ -22,4 +25,8 @@
 - name: delta
   pic: delta.png
   link: http://www.deltacafes.pt/
+  size: 6
+- name: vsc
+  pic: vsc.png
+  link: http://www.vitoriasc.pt/pt/
   size: 6
