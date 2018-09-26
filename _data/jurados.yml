@@ -1,11 +1,11 @@
-- name: Prof. Rui Vieira de Castro
-  pic: profruicastro.jpg
-  job: Reitor da Universidade do Minho
-  bio: (Em construção)
-  color: white
-  
 - name: Prof. António Paisana
   pic: profpaisana.jpg
   job: Representante Máximo dos SASUM
+  bio: (Em construção)
+  color: white
+
+- name: Ângela Brandão
+  pic: angelabrandao.jpg
+  job: Vice-Presidente @ Primavera Business Software Solutions
   bio: (Em construção)
   color: white
