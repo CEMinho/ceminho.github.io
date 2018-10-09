@@ -22,6 +22,8 @@
   size: 6
   id: fernandocunha
 
+
+
 - name: Francisco Ramires
   pic: franciscoramires.jpg
   job: Co-founder @ Strain
@@ -61,3 +63,11 @@
   area: alunos
   size: 6
   id: martinhoaragao
+
+- name: Carlos Videira
+  pic: carlosvideira.jpg
+  job: Assessor do Administrador dos Serviços de Ação Social @ Universidade do Minho
+  bio: Em construção
+  area: alunos
+  size: 6
+  id: carlosvideira

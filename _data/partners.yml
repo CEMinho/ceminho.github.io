@@ -14,6 +14,10 @@
   pic: cmguimaraes.png
   link: https://www.cm-guimaraes.pt
   size: 6
+- name: tecminho
+  pic:  TecMinho.jpg
+  link: https://www.tecminho.uminho.pt/
+  size: 6
 - name: xpim
   pic: xpim.png
   link: http://www.xpim3d.com/
@@ -21,6 +25,10 @@
 - name: botnroll
   pic: botnroll.png
   link: https://www.botnroll.com/
+  size: 6
+- name: forallphones
+  pic: forallphonespreto.png
+  link: https://forallphones.com/
   size: 6
 - name: delta
   pic: delta.png
