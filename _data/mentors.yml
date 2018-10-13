@@ -1,7 +1,7 @@
 - name: Helena Moura
   pic: helenamoura.jpg
   job: Gestão Operacional de Projetos de Empreendedorismo @ TecMinho
-  bio: Em construção
+  bio: Helena Moura possui 9 anos de experiência profissional no planeamento, desenvolvimento, execução, gestão e avaliação de processos de inovação e formação-ação. Iniciou o seu percurso profissional como coordenadora e gestora operacional de um programa de apoio à geração e desenvolvimento de ideias de negócio, intitulado IdeaLab – Laboratório de Ideias de Negócio. Para além disso, presta apoio e acompanhamento a empreendedores ao nível do desenvolvimento das suas ideias de negócio/projetos empresariais, aconselhamento dos melhores apoios a financiamento, incubação e criação de empresas/spin-offs, elaboração e melhoria de planos de negócio. De acrescentar que organiza eventos de promoção do empreendedorismo e faz a coordenação e gestão operacional de um programa de apoio à fase de pré-arranque e arranque de empresas com carácter de inovação/diferenciação, intitulado Laboratório de Empresas.
   area: empreendedorismo
   size: 6
   id: helenamoura
@@ -22,6 +22,8 @@
   size: 6
   id: fernandocunha
 
+
+
 - name: Francisco Ramires
   pic: franciscoramires.jpg
   job: Co-founder @ Strain
@@ -29,6 +31,14 @@
   area: alunos
   size: 6
   id: fransciscoramires
+
+- name: Filipe Marques
+  pic: filipemarques.jpg
+  job: PhD Student @ MIT Portugal
+  bio: Filipe Marques é natural de Guimarães e é, desde janeiro de 2016, aluno do Programa Doutoral Líderes para as Indústrias Tecnológicas no âmbito do Programa MIT Portugal. Filipe Marques é também assistente convidado do Departamento de Engenharia Mecânica da Universidade do Minho desde setembro de 2016. Em 2015, concluiu o Mestrado Integrado em Engenharia Mecânica na Universidade do Minho. Desenvolve as suas atividades científico-pedagógicas no Departamento de Engenharia Mecânica da Universidade do Minho e no centro de investigação MicroElectroMechanical Systems (CMEMS-UMinho).
+  area: alunos
+  size: 6
+  id: filipemarques
 
 - name: Tiago Gomes Sequeira
   pic: tiagogomessequeira.jpg
@@ -41,7 +51,7 @@
 - name: Diogo Cunha
   pic: diogocunha.jpg
   job: Media Artist @ EEUM
-  bio: Em construção
+  bio: Na Universidade do Minho, licenciou-se em Línguas Aplicadas (ILCH), fez uma pós-graduação em Comunicação, Educação e Cidadania (ICS) e é presentemente aluno do Mestrado em Tecnologia e Arte Digital (EEUM). Com 7 anos de experiência profissional em design, multimédia e publicidade. Para além de ter o seu próprio negócio na área da produção audiovisual e ser co-fundador de uma startup na área turismo gastronómico, trabalha no gabinete de comunicação da Escola de Engenharia da UMinho. Entusiasta por comunicação de ciência e tecnologia para o público através da arte digital.
   area: media
   size: 6
   id: diogocunha
@@ -53,3 +63,11 @@
   area: alunos
   size: 6
   id: martinhoaragao
+
+- name: Carlos Videira
+  pic: carlosvideira.jpg
+  job: Assessor do Administrador dos Serviços de Ação Social @ Universidade do Minho
+  bio: Em construção
+  area: alunos
+  size: 6
+  id: carlosvideira

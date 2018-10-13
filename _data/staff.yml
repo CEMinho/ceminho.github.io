@@ -1,9 +1,89 @@
+- name: Álvaro Leite
+  pic: alvaro.png
+  school: NEEEICUM
+  job:
+
+- name: André Gomes
+  pic: andregomes.png
+  school: NEEMAT
+  job:
+
+- name: Carla Meira
+  pic: carla.png
+  school: NEEGIUM
+  job:
+
+- name: Catarina Cacho
+  pic: catarina.png
+  school: NEEGIUM
+  job:
+
+- name: Diana Rito
+  pic: diana.png
+  school: GAEB
+  job:
+
+- name: Francisco Cunha
+  pic: franciscocunha.png
+  school: GAEB
+  job:
+
 - name: Francisco Lira
-  pic: lira.jpg
+  pic: lira.png
   school: CeSIUM
   job:
 
+- name: Joana Coelho
+  pic: joana.png
+  school: NaMecUM
+  job:
+
+- name: João Ferreira
+  pic: joaoferreira.png
+  school: NEEMAT
+  job:
+
+- name: João Magalhães
+  pic: joaomagalhaes.png
+  school: NaMecUM
+  job:
+
+- name: Luís Araújo
+  pic: luispedro.png
+  school: NETIUM
+  job:
+
+- name: Miguel Pinto
+  pic: miguelpinto.png
+  school: NEEMAT
+  job:
+
+- name: Nuno Tavares
+  pic: nunotavares.png
+  school: NETIUM
+  job:
+
+- name: Ricardo Pinto
+  pic: ricardo.png
+  school: NEEPUM
+  job:
+
 - name: Sérgio Costa
-  pic: sergiocosta.jpg
+  pic: sergiocosta.png
   school: CeSIUM
+  job:
+
+- name: Sofia Lopes
+  pic: sofia.png
+  school: AIS.SC
+  job:
+
+- name: Vladyslav Reznikov
+  pic: vlad.png
+  school: NEEEICUM
+  job:
+
+- name: Xavier Azevedo
+  pic: xavier.png
+  school: NEEPUM
   job:
