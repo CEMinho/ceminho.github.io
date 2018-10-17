@@ -6,3 +6,11 @@
   pic: fujitsu.png
   link: http://www.fujitsu.com/pt/
   size: 4
+- name: PeekMed
+  pic: peekmed.png
+  link: http://www.peekmed.com/
+  size: 4
+- name: Primavera
+  pic: primavera.png
+  link: https://pt.primaverabss.com/pt/
+  size: 4

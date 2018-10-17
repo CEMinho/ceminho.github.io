@@ -66,6 +66,6 @@ function initializeClock(id, endtime) {
 
 }
 
-var deadline = 'October 13 2018 08:30:00 GMT+0000';
+var deadline = 'October 14 2018 08:30:00 GMT+0000';
 
 initializeClock('clockdiv', deadline);
