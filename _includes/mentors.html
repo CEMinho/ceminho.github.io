@@ -16,6 +16,7 @@
       </div>
       <h4>{{mentor.name}}</h4>
       <h5>{{mentor.job}}</h5>
+      {% if mentor.bio%}
       <button class="btn btn-primary text-toggle" data-toggle="collapse" data-target="#{{mentor.id}}" aria-expanded="false">
         <span class="text-collapsed">See More</span>
         <span class="text-expanded">See Less</span>
@@ -23,6 +24,7 @@
       <div id="{{mentor.id}}" class="collapse" aria-expanded="false">
         <h6>"{{mentor.bio}}"</h6>
       </div>
+      {% endif%}
     </div>
     {% endif %}
     {% endfor %}
@@ -36,6 +38,7 @@
       </div>
       <h4>{{mentor.name}}</h4>
       <h5>{{mentor.job}}</h5>
+      {% if mentor.bio%}
       <button class="btn btn-primary text-toggle" data-toggle="collapse" data-target="#{{mentor.id}}" aria-expanded="false">
         <span class="text-collapsed">See More</span>
         <span class="text-expanded">See Less</span>
@@ -43,6 +46,7 @@
       <div id="{{mentor.id}}" class="collapse" aria-expanded="false">
         <h6>"{{mentor.bio}}"</h6>
       </div>
+      {% endif %}
     </div>
     {% endif %}
     {% endfor %}
@@ -56,6 +60,7 @@
       </div>
       <h4>{{mentor.name}}</h4>
       <h5>{{mentor.job}}</h5>
+      {% if mentor.bio%}
       <button class="btn btn-primary text-toggle" data-toggle="collapse" data-target="#{{mentor.id}}" aria-expanded="false">
         <span class="text-collapsed">See More</span>
         <span class="text-expanded">See Less</span>
@@ -63,6 +68,7 @@
       <div id="{{mentor.id}}" class="collapse" aria-expanded="false">
         <h6>"{{mentor.bio}}"</h6>
       </div>
+      {%endif%}
     </div>
     {% endif %}
     {% endfor %}
@@ -76,6 +82,7 @@
       </div>
       <h4>{{mentor.name}}</h4>
       <h5>{{mentor.job}}</h5>
+      {% if mentor.bio%}
       <button class="btn btn-primary text-toggle" data-toggle="collapse" data-target="#{{mentor.id}}" aria-expanded="false">
         <span class="text-collapsed">See More</span>
         <span class="text-expanded">See Less</span>
@@ -83,6 +90,7 @@
       <div id="{{mentor.id}}" class="collapse" aria-expanded="false">
         <h6>"{{mentor.bio}}"</h6>
       </div>
+      {%endif%}
     </div>
     {% endif %}
     {% endfor %}
